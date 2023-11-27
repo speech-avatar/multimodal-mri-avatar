@@ -76,17 +76,6 @@
                         <span>Paper</span>
                       </a>
                     </span>
-
-                    <!-- Supplementary PDF link -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
             </div>
           </div>
         </div>
@@ -99,9 +88,9 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" width="100%" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        Supplemental video of 2D and 3D avatars of the vocal tract. Articulatory movements are modeled off of real-time MRI imaging.
       </h2>
     </div>
   </div>
@@ -116,7 +105,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Accurate modeling of the vocal tract is necessary for naturalistic facial animation, avatar rendering for virtual environments, and pronunciation tutoring. However, vocal tract modeling is challenging because internal articulators like the tongue and velum are occluded from external motion capture technologies. Real-time magnetic resonance imaging (RT-MRI) offer a direct way to measure precise movements of internal articulators during naturalistic speaking, offering a possible solution to modeling. However, segmented and annotated datasets of MRI are limited in size due to time-consuming and computationally expensive labeling methods. We first present a labeling strategy for the Speech MRI Open Dataset comprising over 20 hours of audio-aligned RT-MRI video using a vision-only segmentation approach. We then apply a multimodal pretraining algorithm to: (1) improve segmentation of vocal articulators, (2) synthesize intelligible speech from inferred segments, and (3) animate 2D and 3D facial avatars that capture the complex articulator patterns underlying naturalistic speech production. We also extend these animation techniques to a high performance streamable facial avatar driven directly from speech, achieving 107ms average latency. Together, we set a new benchmark for vocal tract modeling in MRI image segmentation, intelligible MRI-to-speech synthesis, and real-time speech-to-avatar rendering.
           </p>
         </div>
       </div>
@@ -124,22 +113,6 @@
   </div>
 </section>
 <!-- End paper abstract -->
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
 <!--BibTex citation -->
@@ -160,7 +133,7 @@
 
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
